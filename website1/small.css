@@ -1,0 +1,143 @@
+/* navigation */
+
+:root {
+    --navbar-height: 20px;
+}
+
+#navbar {
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 100px;
+}
+
+#navbar ul li a {
+    font-size: 0.1rem;
+    padding: 0px 3px;
+    padding-top: 10px;
+    background: none;
+    height: 20px;
+}
+
+#logo {
+    margin: 12px 15px;
+}
+
+#logo img {
+    height: 30px;
+    margin: 2px 3px;
+}
+
+
+/* Home */
+
+#home {
+    height: 405px;
+    padding: 3px 28px;
+}
+
+#home::before {
+    height: 480px;
+}
+
+#home p {
+    font-size: 16px;
+}
+
+
+/* services */
+
+#services {
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+#services .box {
+    margin: 2px 0px;
+    padding: 0px;
+}
+
+#services .box img {
+    height: 120px;
+    width: 60%;
+}
+
+
+/* About Us */
+
+.members {
+    flex-wrap: wrap;
+}
+
+.members img {
+    height: 150px;
+    width: 150px;
+}
+
+
+/* Contact us */
+
+#contact-box form {
+    width: 50%;
+}
+
+#contact-box {
+    padding-bottom: 10px;
+}
+
+#contact-box label {
+    font-size: 0.8rem;
+}
+
+#contact-box input,
+#contact-box textarea {
+    width: 100%;
+    padding: 0.3rem;
+    border-radius: 8px;
+    font-size: 0.8rem;
+    background: none;
+    border: 2px solid black;
+    color: black;
+    /* background-color: rgb(6, 255, 255); */
+    margin: 3px 0px;
+}
+
+
+/* footer */
+
+
+/* utility class */
+
+.h-primary {
+    font-size: 15px;
+}
+
+.btn {
+    font-size: 8px;
+    padding: 2px 3px;
+}
+
+.h-secondary {
+    font-size: 20px;
+}
+
+#our-members p {
+    font-size: 1rem;
+}
+
+#services .box p {
+    font-size: 1rem;
+}
+
+#fb {
+    width: 100px;
+    font-size: 13px;
+}
+
+#fb img {
+    width: 20px;
+    height: 20px;
+}
+
+#fb:hover {
+    width: 130px;
+}
